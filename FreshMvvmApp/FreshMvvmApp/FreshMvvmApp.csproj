@@ -19,7 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\MainPageView.xaml">
+    <Compile Update="VW\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="VW\MainView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

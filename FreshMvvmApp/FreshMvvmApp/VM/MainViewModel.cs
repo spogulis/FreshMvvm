@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using FreshMvvm;
 
-namespace FreshMvvmApp.ViewModel
+namespace FreshMvvmApp.VM
 {
-    public class MainPageViewModel : FreshBasePageModel
+    public class MainViewModel : FreshBasePageModel
     {
     }
 }

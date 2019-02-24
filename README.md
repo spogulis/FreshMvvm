@@ -1,3 +1,3 @@
 # FreshMvvm
 
-FreshMvvmApp.Utility.MvvmConventionPageModelMapper - Custom implementation of  FreshPageModelResolver.PageModelMapper that expects all views to be in namespace.View folder and all VM's in namespace.ViewModel
+FreshMvvmApp.Utility.MvvmConventionPageModelMapper - Custom implementation of  FreshPageModelResolver.PageModelMapper that expects all views to be in namespace.VW folder and all VM's in namespace.VM with view and viewmodel names being NameView and NameViewModel

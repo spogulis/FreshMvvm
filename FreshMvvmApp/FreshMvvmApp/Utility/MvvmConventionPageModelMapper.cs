@@ -9,7 +9,7 @@ namespace FreshMvvmApp.Utility
     {
         public string GetPageTypeName(Type pageModelType)
         {
-            return pageModelType.AssemblyQualifiedName.Replace("PageViewModel", "PageView").Replace("ViewModel", "View");
+            return pageModelType.AssemblyQualifiedName.Replace("ViewModel", "View").Replace("VM", "VW");
         }
     }
 }

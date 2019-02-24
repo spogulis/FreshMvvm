@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FreshMvvmApp.View
+namespace FreshMvvmApp.VW
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainPageView : ContentPage
+	public partial class MainView : ContentPage
 	{
-		public MainPageView ()
+		public MainView ()
 		{
 			InitializeComponent ();
 		}

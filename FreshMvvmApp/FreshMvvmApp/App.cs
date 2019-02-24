@@ -1,6 +1,6 @@
 ﻿using FreshMvvm;
 using FreshMvvmApp.Utility;
-using FreshMvvmApp.ViewModel;
+using FreshMvvmApp.VM;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -19,7 +19,7 @@ namespace FreshMvvmApp
         void LoadNavContainer()
         {
             FreshPageModelResolver.PageModelMapper = new MvvmConventionPageModelMapper(); //Use custom name mapper for View/ViewModel folder separation
-            var _mainPage = FreshPageModelResolver.ResolvePageModel<MainPageViewModel>();
+            var _mainPage = FreshPageModelResolver.ResolvePageModel<MainViewModel>();
             var _navContainer = new FreshNavigationContainer(_mainPage);
             MainPage = _navContainer;
         }
